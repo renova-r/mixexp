@@ -1,6 +1,5 @@
 Package: mixexp
-Version: 1.2.7.1
-Date: 2024-10-23
+Version: 1.2.7.1.9001
 Type: Package
 Title: Design and Analysis of Mixture Experiments
 Authors@R: c(person("John","Lawson", role=c("aut","cre"), email="lawson@byu.edu"),
@@ -13,6 +12,7 @@ Author: John Lawson [aut, cre],
 Maintainer: John Lawson <lawson@byu.edu>
 Depends: lattice, grid, daewr
 Description: Functions for creating designs for mixture experiments, making ternary contour plots, and making mixture effect plots.
+    Compatibility updates by Renova.
 License: GPL (>= 2)
 LazyLoad: yes
 LazyData: yes
