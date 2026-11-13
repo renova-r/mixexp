@@ -1,0 +1,22 @@
+useDynLib(mixexp)
+import(lattice, grid, daewr)
+importFrom("grDevices","heat.colors")
+importFrom("graphics","lines","plot","text")
+importFrom("stats","lm","predict","pt","runif","vcov")
+importFrom("utils","combn")
+export(crvtave,
+       EffPlot,
+       cubic,
+       Eflags,
+       Nrows,
+       Vertcen,
+       SCD,
+       SLD,
+       MixturePlot,
+       MixModel,
+       ModelPlot,
+       DesignPoints,
+       Xvert,
+       ModelEff,
+       Fillv
+       )
